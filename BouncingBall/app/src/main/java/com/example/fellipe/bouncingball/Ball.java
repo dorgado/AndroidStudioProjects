@@ -20,8 +20,7 @@ public class Ball {
 
     public Ball(){
         radius = RADIUS_100;
-        Random r = new Random();
-        paint.setColor(Color.rgb(r.nextInt(255),r.nextInt(255),r.nextInt(255)));
+        randomizeColor();
     }
 
     /**
